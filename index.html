@@ -9,16 +9,23 @@
         <div class="header"><h1>Fantastic Worlds and Where to Read About Them</h1></div>
         <ul class="nav nav-tabs">
             <li role="presentation"><a href="home.html">Home</a></li>
-            <li role="presentation" class="active"><a href="index.html">World Map</li>
+            <li role="presentation" class="active"><a href="index.html">World Map</a></li>
         </ul>
         
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-1"><a href="middle-earth.html">Middle-Earth</a></div>
-            <div class="col-xs-12 col-sm-6 col-md-1"><a href="narnia.html">Narnia</a></div>
-            <div class="col-xs-12 col-sm-6 col-md-1"><a href="oz.html">Oz</a></div>
-            <div class="col-xs-12 col-sm-6 col-md-1"><a href="discworld">Discworld</a></div>
+            <div class="col-xs-6 col-sm-2 col-md-1"><a href="middle-earth.html">Middle-Earth</a></div>
+            <div class="col-xs-6 col-sm-2 col-md-1"><a href="narnia.html">Narnia</a></div>
+            <div class="col-xs-6 col-sm-2 col-md-1"><a href="oz.html">Oz</a></div>
+            <div class="col-xs-6 col-sm-2 col-md-1"><a href="discworld">Discworld</a></div>
         </div>
-        <button type="button" class="btn btn-primary btn-md">World Pages Under Construction</button>
+        <div class="dropdown">
+            <button id="dLabel" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">World Pages Under Construction<span class="caret"></span></button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li>Neverland</li>
+                <li>Wonderland</li>
+            </ul>
+        </div>
+        
         
         
     </body>
